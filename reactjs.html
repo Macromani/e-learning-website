@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React js Basics</title>
+    <link rel="stylesheet" href="coursecontent.css">
+</head>
+<body>
+    <header>
+        <div class="container flex justification align-center gap bottom-border">
+            <div class="flex justification align-center gap">
+                <div>
+                    <img src="images/crystal-delta_b.png" alt="logo">
+                </div>
+                <div class="tab">
+
+                    <button class="tablinks active" onclick="openContent(event,'reactjs')">All Courses</button>
+
+                    <button class="tablinks" onclick="openContent(event,'mydashboard')">My Dashboard</button>
+
+                </div>
+            </div>
+            <div>
+                <button><a href="index.html">Logout</a></button>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container tabcontent block" id="reactjs">
+            <div>
+                <h2>React js Basics</h2>
+            </div>
+            <div class="grid column bottom-margin">
+                <div>Instructor : Steve Rogers</div>
+                <div>Course Starts : 01-01-2024</div>
+                <div>Duration : 19 hours</div>
+                <div>Course Ends : 01-06-2024</div>
+            </div>
+            <div class="bottom-margin">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ipsam quod, quibusdam odio animi nobis quo voluptatibus perspiciatis aspernatur rerum consectetur officia architecto fugiat dignissimos. Optio cum quaerat necessitatibus harum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eligendi dignissimos explicabo, recusandae minus blanditiis culpa laboriosam ducimus dolores dicta, nostrum vero impedit, voluptatum ea quo magni voluptates facere laudantium? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil minima, deleniti tempore consectetur dolor necessitatibus aperiam fuga illum qui, illo quaerat. Nihil quia quos vero voluptatum corporis, consequatur maxime enim?
+            </div>
+            <div class="enrollbtn flex">
+                <button onclick="enroll()" id="mybtn">Enroll now</button>
+            </div>
+        </div>
+
+        <div class="tabcontent block container" id="mydashboard">
+        </div>
+    </section>
+
+    <script src="tabswitch.js"></script>
+    <script src="enroll.js"></script>
+</body>
+</html>
